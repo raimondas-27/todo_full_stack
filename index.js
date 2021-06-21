@@ -1,12 +1,19 @@
 const express = require('express');
 const app = express();
 
+const path = require('path');
+
+//aplikos kintamieji
+require('dotenv').config()
+
+
 const cors = require('cors');
 
 const mongoose = require('mongoose');
-const { mongoDbString } = require('./config/config');
 
-const PORT = 3002;
+
+const PORT = process.env.USER_PORT || 3002;
+
 
 app.use(cors());
 // middle ware - to get req.body in json
@@ -16,9 +23,15 @@ const todoApi = require('./api/todoApi');
 
 app.use('/', todoApi);
 
+const rootbuild = path.join(__dirname,"client","build")
+
+if (process.env.NODE_ENV === "production") {
+   app.use(express.static(rootbuild))
+}
+
 // prisijungimas prie duomenu bazes
 mongoose
-  .connect(process.env.REACT_APP_MONGO_CONNECT || mongoDbString, {
+  .connect(process.env.MONGO_CONN_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
