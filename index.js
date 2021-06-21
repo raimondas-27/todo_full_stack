@@ -29,6 +29,10 @@ if (process.env.NODE_ENV === "production") {
    app.use(express.static(rootbuild))
 }
 
+app.get("*", (req, res) => {
+   res.sendFile(path.join("index.html", {root: rootbuild}))
+})
+
 // prisijungimas prie duomenu bazes
 mongoose
   .connect(process.env.MONGO_CONN_STRING, {

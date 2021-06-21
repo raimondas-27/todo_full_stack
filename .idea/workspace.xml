@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a92c640-cb8c-433c-bd8a-307d2d6ad83b" name="Default Changelist" comment=".gitignore plus start command added">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" />
+    <list default="true" id="3a92c640-cb8c-433c-bd8a-307d2d6ad83b" name="Default Changelist" comment="static root path">
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/server/config/config.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/server/config/config.js&#10;/Users/raimondaskurklenas/PycharmProjects/todo_full_stack/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -93,7 +88,7 @@
       <workItem from="1624258294274" duration="2053000" />
       <workItem from="1624262455301" duration="218000" />
       <workItem from="1624262687214" duration="1763000" />
-      <workItem from="1624264467938" duration="1562000" />
+      <workItem from="1624264467938" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore plus start command added">
       <created>1624264112334</created>
@@ -102,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624264112334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="static root path">
+      <created>1624266186066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624266186066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore plus start command added" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore plus start command added" />
+    <MESSAGE value="static root path" />
+    <option name="LAST_COMMIT_MESSAGE" value="static root path" />
   </component>
 </project>
